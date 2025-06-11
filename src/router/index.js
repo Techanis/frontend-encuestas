@@ -6,6 +6,7 @@ const ProfilePage = () => import("@/pages/profile-page.vue");
 const PublicPage = () => import("@/pages/public-page.vue");
 const ProtectedPage = () => import("@/pages/protected-page.vue");
 const AdminPage = () => import("@/pages/admin-page.vue");
+const CallbackPage = () => import("@/pages/callback-page.vue");
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: "/admin",
     name: "admin",
     component: AdminPage,
+  },
+  {
+    path: "/callback",
+    name: "callback",
+    component: CallbackPage,
   },
   {
     path: "/:catchAll(.*)",
