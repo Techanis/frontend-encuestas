@@ -1,11 +1,11 @@
 {
   "api-messages-public": {
-    "text": "This is a public message."
+    "text": "Esta es una noticia ."
   },
   "api-messages-protected": {
-    "text": "This is a protected message."
+    "text": "Este es un mensaje protegido."
   },
   "api-messages-admin": {
-    "text": "This is an admin message."
+    "text": "Este es un mensaje dirigido especialmente al usuario."
   }
 }

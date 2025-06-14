@@ -5,10 +5,9 @@
       <div class="content__body">
         <p id="page-description">
           <span
-            >This page retrieves a <strong>public message</strong> from an
-            external API.</span
+            >Esta pagina presenta <strong>noticias</strong> desde una API externa.</span
           >
-          <span><strong>Any visitor can access this page.</strong></span>
+          <span><strong>Página visible para cualquier visitante.</strong></span>
         </p>
         <CodeSnippet title="Public Message" :code="message" />
       </div>

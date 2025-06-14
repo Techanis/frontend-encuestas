@@ -1,9 +1,9 @@
 <template>
   <div class="mobile-nav-bar__tabs">
-    <MobileNavBarTab path="/profile" label="Profile" />
-    <MobileNavBarTab path="/public" label="Public" />
+    <MobileNavBarTab path="/public" label="Noticias" />
     <template v-if="isAuthenticated">
-      <MobileNavBarTab path="/protected" label="Protected" />
+      <MobileNavBarTab path="/profile" label="Perfil" />
+      <MobileNavBarTab path="/protected" label="Concursos" />
       <MobileNavBarTab path="/admin" label="Admin" />
     </template>
   </div>
