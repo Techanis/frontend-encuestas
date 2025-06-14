@@ -5,7 +5,15 @@ Basado en [Guia de auth para Vue.js](https://developer.auth0.com/resources/guide
 
 ## Setear el proyecto
 
-1. Instala las dependencias
+Crea un archivo .dev y agrega las siguientes variables de prueba
+
+VITE_API_SERVER_URL=http://localhost:6060
+VITE_AUTH0_DOMAIN=dev-gvcplh7zbl6gqquj.us.auth0.com
+VITE_AUTH0_CLIENT_ID=nu8W6SStnnTyBRHqU51uXx5DI47TQ9wo
+VITE_AUTH0_CALLBACK_URL=http://localhost:4040/callback
+
+
+Instala las dependencias
 
 ```bash
 npm install
