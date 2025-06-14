@@ -1,4 +1,5 @@
 import HomePage from "@/pages/home-page.vue";
+import { authGuard } from "@auth0/auth0-vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const NotFoundPage = () => import("@/pages/not-found-page.vue");
@@ -18,6 +19,7 @@ const routes = [
     path: "/profile",
     name: "profile",
     component: ProfilePage,
+    beforeEnter: authGuard,
   },
   {
     path: "/public",
@@ -28,11 +30,13 @@ const routes = [
     path: "/protected",
     name: "protected",
     component: ProtectedPage,
+    beforeEnter: authGuard,
   },
   {
     path: "/admin",
     name: "admin",
     component: AdminPage,
+    beforeEnter: authGuard,
   },
   {
     path: "/callback",
