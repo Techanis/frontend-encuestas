@@ -5,7 +5,7 @@ Basado en [Guia de auth para Vue.js](https://developer.auth0.com/resources/guide
 
 ## Setear el proyecto
 
-Crea un archivo .dev y agrega las siguientes variables de prueba
+Crea un archivo .env y agrega las siguientes variables de prueba
 
 VITE_API_SERVER_URL=http://localhost:6060
 VITE_AUTH0_DOMAIN=dev-gvcplh7zbl6gqquj.us.auth0.com
